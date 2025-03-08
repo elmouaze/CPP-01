@@ -45,17 +45,6 @@ These exercises aim to strengthen your understanding of Object-Oriented Programm
 - Implement a filtering system that only prints messages above a specified log level.  
 - Use a `switch` statement for decision-making.  
 
-## 🛠️ Compilation & Execution  
-All exercises include a **Makefile**. Use the following commands:  
-
-```sh
-make        # Compile the project
-./executable_name   # Run the program
-make clean  # Remove object files
-make fclean # Remove executables
-make re     # Recompile from scratch
-```
-
 ## 🔥 Notes  
 - Code is written in **C++98**.  
 - **STL is not allowed** until Modules 08 and 09.  
