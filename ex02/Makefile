@@ -1,10 +1,8 @@
 
-NAME = Zombie
+NAME = PROG
 
-SRC = main.cpp Zombie.cpp newZombie.cpp randomChump.cpp 
-
+SRC =  main.cpp
 OBJ = $(SRC:.cpp=.o)
-
 CC = c++
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98
@@ -15,7 +13,7 @@ CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 all: $(NAME)
 
-$(NAME): $(OBJ) Zombie.hpp
+$(NAME): $(OBJ) 
 	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
 clean:
