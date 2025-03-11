@@ -7,6 +7,5 @@ int	main(void)
 		W[i].announce();
 	}
 	delete[] W;
-
 	return (1);
 }
